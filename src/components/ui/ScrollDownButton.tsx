@@ -24,8 +24,8 @@ export function ScrollDownButton(
       <motion.img
         src="/scroll-down.svg"
         className="max-w-96 w-20 absolute bottom-2 left-5"
-        animate={{ x: [10, 8, 10] }}
-        transition={{ repeat: Infinity, duration: 1 }}
+        animate={{ x: [12, 8, 12] }}
+        transition={{ repeat: Infinity, duration: 1.5 }}
       />
     </button>
   );
