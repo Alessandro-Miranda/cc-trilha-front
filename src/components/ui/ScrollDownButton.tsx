@@ -17,7 +17,7 @@ export function ScrollDownButton(
       className="uppercase absolute -right-3 bottom-28 rotate-90"
       onClick={() => onScrollClick(target)}
     >
-      <span className="inline-block -rotate-180 text-[10px]" id="scroll-label">
+      <span className="inline-block -rotate-180 text-[10px]">
         Scroll down
       </span>
 
