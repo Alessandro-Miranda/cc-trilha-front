@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
+import { Footer } from './components/layout/Footer';
 import { AnimatedPageTransition } from './components/ui/AnimatedPageTransition';
 import { DecorationImage } from './components/ui/DecorationImage';
 import { Divider } from './components/ui/Divider';
@@ -16,10 +17,10 @@ function App() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, ease: [0.22, 1, 0.36, 1] }}
-        className="px-5 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl overflow-x-hidden"
+        className="px-5 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl overflow-x-hidden relative mb-96 bg-black"
       >
-        <header className="relative py-36">
-          <h1 className="text-4xl font-semibold ">Alessandro Miranda</h1>
+        <header className="relative py-36 z-10">
+          <h1 className="text-4xl">Alessandro Miranda</h1>
           <h2 className="font-subHeading text-lg mb-5">Desenvolvedor Front-end</h2>
           <p className="text-sm">
             Desenvolvedor em busca de criar sites leves, minimalistas, mas que atendam às
@@ -35,9 +36,68 @@ function App() {
         <Divider />
 
         <section className="py-36" ref={sectionTargetToScrollDown}>
-          
+          <h2 className='uppercase'>
+            Sobre
+          </h2>
+
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
+          <p>iuuhhuh</p>
         </section>
       </motion.main>
+
+      <Footer />
 
       <AnimatedPageTransition />
     </>
