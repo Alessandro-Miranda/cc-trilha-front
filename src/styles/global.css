@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: theme('fontFamily.headings');
+  font-weight: 800;
+}
+
+blockquote, q {
+  font-family: theme('fontFamily.subHeading');
+  font-weight: 400;
+}
+
+body {
+  font-family: theme('fontFamily.text');
+  font-weight: 400;
+}
