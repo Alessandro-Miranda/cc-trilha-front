@@ -94,28 +94,16 @@ function App() {
             <HobbiesCard
               title="Ouvir Música"
               image={{ src: ListenMusic, alt: 'Hobbie - Ouvir Música' }}
-              credits={{
-                description: 'Imagem de freepik',
-                link: 'https://br.freepik.com/fotos-gratis/guitarra-eletrica-em-um-belo-cenario-de-natureza-morta_171772157.htm#fromView=search&page=1&position=40&uuid=134b4427-20f8-4183-9965-42f5be38c4e9',
-              }}
             />
 
             <HobbiesCard
               title="Tocar Violão"
               image={{ src: PlayGuitar, alt: 'Hobbie - Tocar Violão' }}
-              credits={{
-                link: 'https://br.freepik.com/fotos-gratis/fundo-musical-volumetrico-com-uma-clave-de-sol-e-ia-geradora-de-notas_39872708.htm#fromView=search&page=1&position=0&uuid=54c69a28-00c0-4630-a096-4bedd0ca061c',
-                description: 'Imagem de pvproductions no Freepik',
-              }}
             />
 
             <HobbiesCard
               title="Assistir séries e filmes"
               image={{ src: WatchMovies, alt: 'Hobbie - Assistir séries e filmes' }}
-              credits={{
-                description: 'Imagem de freepik',
-                link: 'https://br.freepik.com/fotos-gratis/retrato-preto-e-branco-de-mulher-com-claquete-no-antigo-estilo-glamouroso-de-hollywood_62974137.htm#fromView=search&page=1&position=29&uuid=e38bddd7-9791-40ce-a462-e2b27793564d',
-              }}
             />
           </div>
         </div>

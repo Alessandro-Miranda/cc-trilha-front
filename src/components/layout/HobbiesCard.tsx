@@ -7,13 +7,9 @@ type Props = {
     alt: React.ImgHTMLAttributes<HTMLImageElement>['alt']
   };
   title: string;
-  credits: {
-    link: string;
-    description: string;
-  }
 }
 
-export function HobbiesCard({ image, title, credits }: Props) {
+export function HobbiesCard({ image, title }: Props) {
   return (
     <article className="w-1/2">
       <motion.img
@@ -36,17 +32,6 @@ export function HobbiesCard({ image, title, credits }: Props) {
       >
         {title}
       </motion.p>
-
-      <motion.a
-        initial={DEFAULT_TRANSITION.initial}
-        whileInView={DEFAULT_TRANSITION.whileInView}
-        viewport={DEFAULT_TRANSITION.viewport}
-        transition={{ ...DEFAULT_TRANSITION.transition, delay: .75 }}
-        href={credits.link}
-        className="text-xs"
-      >
-        {credits.description}
-      </motion.a>
     </article>
   );
 }
