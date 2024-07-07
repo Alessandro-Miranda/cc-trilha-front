@@ -14,7 +14,7 @@ blockquote, q {
 
 body {
   font-family: theme('fontFamily.text');
-  font-weight: 400;
+  font-weight: 300;
   background-color: theme('backgroundColor.black');
   color: theme('colors.white');
   overflow-x: hidden;
