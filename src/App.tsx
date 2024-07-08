@@ -9,8 +9,8 @@ import { ScrollDownButton } from './components/ui/ScrollDownButton';
 import { SocialMedias } from './components/ui/SocialMedias';
 
 import ListenMusic from './assets/listen-music.png';
-import PlayGuitar from './assets/play-guitar.jpg';
-import WatchMovies from './assets/watch-movies.jpg';
+import PlayGuitar from './assets/play-guitar.png';
+import WatchMovies from './assets/watch-movies.png';
 import { AreasOfExpertiseCard } from './components/layout/AreasOfExpertiseCard';
 import { ContentSection } from './components/layout/ContentSection';
 import { DEFAULT_TRANSITION } from './constants/defaultTransitionEffect';
