@@ -10,7 +10,7 @@ export function Footer() {
       transition={{ delay: 2 }}
       className="px-5 w-full bg-white text-black fixed bottom-0 h-screen overflow-x-hidden -z-20 flex flex-col justify-between sm:px-20 md:h-[40vh] lg:h-screen 2xl:h-[50vh] 2xl:px-40"
     >
-      <div className="py-36 lg:pb-0 lg:flex lg:gap-40">
+      <div className="pt-24 md:pt-36 lg:pb-0 flex flex-col lg:flex-row lg:gap-40">
         <div className="2xl:w-1/2">
           <h2 className="text-4xl mb-10 lg:text-6xl">Contato</h2>
           <p className="font-bold lg:text-lg">
@@ -28,7 +28,7 @@ export function Footer() {
 
           <a
             href="https://wa.me/5511958120461"
-            className="block mt-5 mb-10 text-xl"
+            className="block mb-10 text-xl"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,8 +38,8 @@ export function Footer() {
           <SocialMedias />
         </div>
 
-        <div className="hidden lg:block w-1/2">
-          <h3 className="text-6xl">Criado com ❤️ e:</h3>
+        <div className="mt-10 lg:w-1/2">
+          <h3 className="text-2xl lg:text-6xl">Criado com ❤️ e:</h3>
 
           <TechsUsedInCreation />
         </div>
