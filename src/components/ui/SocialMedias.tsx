@@ -6,6 +6,7 @@ export function SocialMedias() {
         title="Link para o GitHub de Alessandro Lima de Miranda - Voluntário Trilha Front-end jr Código Certo"
         aria-label="Link para o GitHub de Alessandro Lima de Miranda - Voluntário Trilha Front-end jr Código Certo"
       >
+        <span className="sr-only">Veja meu GitHub</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
@@ -22,6 +23,7 @@ export function SocialMedias() {
         title="Link para o LinkedIn de Alessandro Lima de Miranda - Voluntário Trilha Front-end jr Código Certo"
         aria-label="Link para o LinkedIn de Alessandro Lima de Miranda - Voluntário Trilha Front-end jr Código Certo"
       >
+        <span className="sr-only">Veja meu LinkedIn</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
