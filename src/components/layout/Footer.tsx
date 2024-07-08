@@ -45,7 +45,7 @@ export function Footer() {
               href="https://vitejs.dev/"
               target="_blank"
               rel="noreferrer"
-              className="flex flex-col items-center text-red font-bold"
+              className="flex flex-col items-center text-red font-bold w-1/5"
             >
               <svg
                 role="img"
@@ -63,7 +63,7 @@ export function Footer() {
               href="https://react.dev/"
               target="_blank"
               rel="noreferrer"
-              className="flex flex-col items-center text-red font-bold"
+              className="flex flex-col items-center text-red font-bold w-1/5"
             >
               <svg
                 role="img"
@@ -81,7 +81,7 @@ export function Footer() {
               href="https://www.framer.com/motion/"
               target="_blank"
               rel="noreferrer"
-              className="flex flex-col items-center text-red font-bold"
+              className="flex flex-col items-center text-red font-bold w-1/5"
             >
               <svg
                 role="img"
@@ -99,7 +99,7 @@ export function Footer() {
               href="https://tailwindcss.com/"
               target="_blank"
               rel="noreferrer"
-              className="flex flex-col items-center text-red font-bold"
+              className="flex flex-col items-center text-red font-bold w-1/5"
             >
               <svg
                 role="img"
@@ -117,7 +117,7 @@ export function Footer() {
               href="https://fonts.google.com/"
               target="_blank"
               rel="noreferrer"
-              className="flex flex-col items-center text-red font-bold"
+              className="flex flex-col items-center text-red font-bold w-1/5"
             >
               <svg
                 role="img"
