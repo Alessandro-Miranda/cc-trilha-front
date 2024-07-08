@@ -11,7 +11,7 @@ type Props = {
 
 export function HobbiesCard({ image, title }: Props) {
   return (
-    <article className="w-1/2">
+    <article className="w-1/2 lg:w-2/5">
       <motion.img
         initial={DEFAULT_TRANSITION.initial}
         whileInView={DEFAULT_TRANSITION.whileInView}
@@ -19,7 +19,7 @@ export function HobbiesCard({ image, title }: Props) {
         transition={DEFAULT_TRANSITION.transition}
         src={image.src}
         alt={image.alt}
-        className="h-auto w-full max-w-44"
+        className="h-auto w-full max-w-44 md:max-w-full lg:max-w-96 2xl:max-w-lg"
         loading="lazy"
       />
 
@@ -28,7 +28,7 @@ export function HobbiesCard({ image, title }: Props) {
         whileInView={DEFAULT_TRANSITION.whileInView}
         viewport={DEFAULT_TRANSITION.viewport}
         transition={DEFAULT_TRANSITION.transition}
-        className="text-red font-semibold mt-5"
+        className="text-red font-semibold mt-5 lg:text-lg 2xl:text-xl"
       >
         {title}
       </motion.p>

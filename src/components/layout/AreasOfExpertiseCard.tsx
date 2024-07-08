@@ -15,7 +15,7 @@ export function AreasOfExpertiseCard({ description, expertise, expertiseNumber }
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="inline-block text-4xl lg:text-7xl"
+          className="inline-block text-4xl lg:text-5xl"
         >
           {String(expertiseNumber).padStart(2, '0')}
         </motion.span>
@@ -34,7 +34,7 @@ export function AreasOfExpertiseCard({ description, expertise, expertiseNumber }
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="w-10/12 ml-auto md:text-lg md:w-1/2 lg:w-1/2 xl:w-1/3"
+        className="w-10/12 ml-auto md:text-lg md:w-1/2 lg:w-1/2 xl:w-1/3 2xl:text-xl"
       >
         {description}
       </motion.p>
