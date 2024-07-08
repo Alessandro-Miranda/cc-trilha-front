@@ -44,7 +44,7 @@ function App() {
         <Divider />
 
         <ContentSection title="Sobre" className="lg:mt-40" ref={sectionTargetToScrollDown}>
-          <div className="flex lg:gap-40">
+          <div className="lg:flex lg:gap-40">
             <div className="mb-5 md:w-3/4 lg:text-lg lg:w-1/2">
               <p className="mb-5 2xl:text-xl">
                 Sou um desenvolvedor, atualmente com 26 anos, que ama escrever códigos e criar
