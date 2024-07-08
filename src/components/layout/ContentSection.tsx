@@ -1,4 +1,4 @@
-import { ComponentProps, ReactNode } from 'react';
+import { ComponentProps, forwardRef, ReactNode } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 type Props = {
@@ -7,16 +7,18 @@ type Props = {
   className?: string;
 };
 
-export function ContentSection({
+export const ContentSection = forwardRef<HTMLElement | null, Props>(function ContentSection({
   children,
   className,
   title,
   ...props
-}: Props & Omit<ComponentProps<'section'>, 'className'>) {
+}: Props & Omit<ComponentProps<'section'>, 'className'>,
+ref) {
   return (
-    <section className={twMerge('py-36 2xl:py-64', className)} {...props}>
+    <section className={twMerge('py-36 2xl:py-64', className)} {...props} ref={ref}>
       <h2 className="text-4xl mb-20 lg:text-6xl 2xl:mb-40">{title}</h2>
       {children}
     </section>
   );
 }
+);
