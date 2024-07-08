@@ -1,7 +1,7 @@
 export const DEFAULT_TRANSITION = {
   initial: {
     opacity: 0,
-    y: 50,
+    y: 100,
   },
   whileInView: {
     opacity: 1,
