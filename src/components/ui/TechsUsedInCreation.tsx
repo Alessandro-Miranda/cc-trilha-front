@@ -20,7 +20,7 @@ function TechUsedLink({ children, link }: TechLinkProps) {
 
 export function TechsUsedInCreation() {
   return (
-    <div className="mt-5 flex flex-wrap lg:flex-nowrap justify-between gap-5 text-center">
+    <div className="mt-5 lg:mt-10 flex flex-wrap lg:flex-nowrap justify-between gap-5 text-center">
       <TechUsedLink link="https://vitejs.dev/">
         <svg
           role="img"
