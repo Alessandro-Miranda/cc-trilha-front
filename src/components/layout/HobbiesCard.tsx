@@ -16,15 +16,14 @@ export function HobbiesCard({ image, title }: Props) {
         initial={DEFAULT_TRANSITION.initial}
         whileInView={DEFAULT_TRANSITION.whileInView}
         viewport={DEFAULT_TRANSITION.viewport}
-        transition={DEFAULT_TRANSITION.transition}
+        transition={{ ...DEFAULT_TRANSITION.transition, y: { type: 'spring', stiffness: 50 } }}
         src={image.src}
         alt={image.alt}
         className="h-auto w-full max-w-44 md:max-w-full lg:max-w-96 2xl:max-w-lg"
-        loading="lazy"
       />
 
       <motion.p
-        initial={DEFAULT_TRANSITION.initial}
+        initial={{ ...DEFAULT_TRANSITION.initial, y: 50 }}
         whileInView={DEFAULT_TRANSITION.whileInView}
         viewport={DEFAULT_TRANSITION.viewport}
         transition={DEFAULT_TRANSITION.transition}
