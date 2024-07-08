@@ -38,7 +38,7 @@ export function Footer() {
           <SocialMedias />
         </address>
 
-        <div className="mt-10 lg:w-1/2">
+        <div className="mt-10 lg:mt-0 lg:w-1/2">
           <h3 className="text-2xl lg:text-6xl">Criado com ❤️ e:</h3>
 
           <TechsUsedInCreation />
