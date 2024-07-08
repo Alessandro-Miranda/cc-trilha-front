@@ -95,8 +95,8 @@ function App() {
             />
 
             <HobbiesCard
-              title="Tocar Violão"
-              image={{ src: PlayGuitar, alt: 'Hobbie - Tocar Violão' }}
+              title="Tocar e estudar música"
+              image={{ src: PlayGuitar, alt: 'Hobbie - Tocar e estudar música' }}
             />
 
             <HobbiesCard
