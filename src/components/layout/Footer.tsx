@@ -40,7 +40,7 @@ export function Footer() {
         <div className="hidden lg:block w-1/2">
           <h3 className="text-6xl">Criado com ❤️ e:</h3>
 
-          <div className="mt-10 flex justify-between gap-5">
+          <div className="mt-10 flex justify-between gap-5 text-center">
             <a
               href="https://vitejs.dev/"
               target="_blank"
