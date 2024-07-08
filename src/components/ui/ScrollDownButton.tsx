@@ -17,7 +17,7 @@ export function ScrollDownButton(
       className="uppercase absolute -right-3 bottom-28 rotate-90 lg:-left-10 lg:right-auto lg:bottom-20 2xl:bottom-36"
       onClick={() => onScrollClick(target)}
     >
-      <span className="inline-block -rotate-180 text-[10px] lg:relative lg:-bottom-1 lg:right-4">Scroll down</span>
+      <span className="inline-block -rotate-180 text-[10px] relative -bottom-1 right-3">Scroll down</span>
 
       <motion.img
         src="/scroll-down.svg"
